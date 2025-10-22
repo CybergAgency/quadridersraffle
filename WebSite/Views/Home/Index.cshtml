@@ -1,0 +1,275 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quad Riders Raffle 2025 | Win Amazing Prizes</title>
+    <meta name="description" content="Enter the Quad Riders ATV Association raffle for a chance to win incredible prizes. Licensed raffle supporting BC's ATV community.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-primary">Quad Riders Raffle</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="/" class="text-gray-900 font-medium hover:text-primary transition-colors">Home</a>
+                    <a href="privacy" class="text-gray-600 hover:text-primary transition-colors">Privacy</a>
+                    <a href="#terms" class="text-gray-600 hover:text-primary transition-colors">Terms</a>
+                    <a href="#gaming-rules" class="text-gray-600 hover:text-primary transition-colors">Gaming Rules</a>
+                    <a href="contact" class="text-gray-600 hover:text-primary transition-colors">Contact</a>
+                </div>
+                <button id="mobile-menu-button" class="md:hidden p-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden border-t border-gray-200">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="/" class="block px-3 py-2 text-gray-900 font-medium hover:bg-gray-50">Home</a>
+                <a href="privacy" class="block px-3 py-2 text-gray-600 hover:bg-gray-50">Privacy</a>
+                <a href="#terms" class="block px-3 py-2 text-gray-600 hover:bg-gray-50">Terms</a>
+                <a href="#gaming-rules" class="block px-3 py-2 text-gray-600 hover:bg-gray-50">Gaming Rules</a>
+                <a href="contact" class="block px-3 py-2 text-gray-600 hover:bg-gray-50">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-primary to-secondary text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-5xl md:text-6xl font-bold mb-6">Win Amazing Prizes!</h1>
+                <p class="text-xl md:text-2xl mb-8 text-white/90">Support the Quad Riders ATV Association of British Columbia</p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+                    <button id="purchase-btn" class="bg-white text-primary px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg">
+                        Purchase Tickets Now
+                    </button>
+                    <a href="#gaming-rules" class="border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-primary transition-all">
+                        View Gaming Rules
+                    </a>
+                </div>
+                <p class="text-sm text-white/80">BC Gaming Licence #164166 | Draw Date: December 12, 2025</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Raffle Details -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Raffle Details</h2>
+                <p class="text-xl text-gray-600">Your chance to win while supporting our community</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md text-center">
+                    <div class="text-5xl font-bold text-primary mb-4">1,000</div>
+                    <h3 class="text-xl font-semibold mb-2">Total Tickets</h3>
+                    <p class="text-gray-600">Limited availability ensures better odds</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md text-center">
+                    <div class="text-5xl font-bold text-secondary mb-4">$20</div>
+                    <h3 class="text-xl font-semibold mb-2">Per Ticket</h3>
+                    <p class="text-gray-600">Affordable entry for amazing prizes</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md text-center">
+                    <div class="text-3xl font-bold text-primary mb-4">Dec 12, 2025</div>
+                    <h3 class="text-xl font-semibold mb-2">Draw Date</h3>
+                    <p class="text-gray-600">Mark your calendar!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eligibility -->
+    <section class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-amber-50 border-l-4 border-amber-500 p-6 rounded-r-lg">
+                <h3 class="text-xl font-bold text-amber-900 mb-3">Eligibility Requirements</h3>
+                <ul class="space-y-2 text-amber-800">
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span>Must be 19 years of age or older</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span>Must be a resident of British Columbia</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span>Valid identification required for prize claim</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-12">How It Works</h2>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="bg-primary text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
+                    <h3 class="text-xl font-semibold mb-2">Purchase Tickets</h3>
+                    <p class="text-gray-600">Buy your raffle tickets online securely</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-primary text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
+                    <h3 class="text-xl font-semibold mb-2">Receive Confirmation</h3>
+                    <p class="text-gray-600">Get your ticket numbers via email</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-primary text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
+                    <h3 class="text-xl font-semibold mb-2">Wait for Draw</h3>
+                    <p class="text-gray-600">Draw takes place December 12, 2025</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-primary text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">4</div>
+                    <h3 class="text-xl font-semibold mb-2">Winners Notified</h3>
+                    <p class="text-gray-600">Winners contacted within 48 hours</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Added important eligibility notice section -->
+            <div class="bg-red-600 border-2 border-red-400 rounded-lg p-6 mb-8">
+                <div class="flex items-start gap-3">
+                    <span class="text-3xl flex-shrink-0">⚠️</span>
+                    <div>
+                        <h3 class="text-xl font-bold mb-3">IMPORTANT ELIGIBILITY NOTICE</h3>
+                        <p class="mb-4 font-semibold">This raffle is exclusively for residents of British Columbia, Canada only.</p>
+                        <p class="mb-3 font-semibold">Participants must be:</p>
+                        <ul class="space-y-2 mb-4">
+                            <li class="flex items-start gap-2">
+                                <span class="flex-shrink-0">✓</span>
+                                <span>19 years of age or older</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="flex-shrink-0">✓</span>
+                                <span>Legal residents of British Columbia, Canada</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="flex-shrink-0">✓</span>
+                                <span>Physically present in BC at time of ticket purchase</span>
+                            </li>
+                        </ul>
+                        <p class="font-semibold">Tickets cannot be purchased from outside British Columbia. This raffle is not available to residents of other provinces, territories, or countries. All ticket purchases are subject to verification of BC residency.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quad Riders Raffle</h3>
+                    <p class="text-gray-400">Supporting the ATV community in British Columbia</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="/" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="privacy" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
+                        <li><a href="#terms" class="text-gray-400 hover:text-white transition-colors">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Legal</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#gaming-rules" class="text-gray-400 hover:text-white transition-colors">Gaming Rules</a></li>
+                        <li><a href="contact" class="text-gray-400 hover:text-white transition-colors">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Contact</h4>
+                    <p class="text-gray-400 text-sm">Carrie Martin<br>Event Coordinator<br>info@quadridersraffle.ca</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
+                <p class="mb-2">BC Gaming Licence #164166 | Regulated by Gaming Policy and Enforcement Branch (GPEB)</p>
+                <p>&copy; 2025 Quad Riders ATV Association of British Columbia. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Purchase Modal -->
+    <div id="purchase-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="text-2xl font-bold text-gray-900">Purchase Raffle Tickets</h2>
+                <button class="modal-close" id="close-modal">&times;</button>
+            </div>
+            <form id="purchase-form" class="modal-body">
+                <div class="form-group">
+                    <label for="fullName">Full Name *</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="tickets">Number of Tickets *</label>
+                    <input type="number" id="tickets" name="tickets" min="1" max="50" value="1" required>
+                    <p class="text-sm text-gray-600 mt-1">$20 per ticket</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                    <div class="flex justify-between items-center">
+                        <span class="font-semibold">Total Amount:</span>
+                        <span class="text-2xl font-bold text-primary" id="total-amount">$20.00</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="age-confirm" required>
+                        <span>I confirm that I am 19 years of age or older *</span>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="bc-confirm" required>
+                        <span>I confirm that I am a resident of British Columbia *</span>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="terms-confirm" required>
+                        <span>I agree to the <a href="#terms" target="_blank" class="text-primary hover:underline">Terms & Conditions</a> *</span>
+                    </label>
+                </div>
+                <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-4">
+                    <p class="text-sm text-blue-900">
+                        <strong>Responsible Gaming:</strong> If you or someone you know has a gambling problem, please contact the BC Problem Gambling Help Line at 1-888-795-6111.
+                    </p>
+                </div>
+                <button type="submit" class="btn-primary w-full">Complete Purchase</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="~/script2.js"></script>
+</body>
+</html>
